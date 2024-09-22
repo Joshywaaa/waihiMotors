@@ -12,7 +12,7 @@
 <body>
 
   <!-- Navbar -->
-  <?php include includes/nav.php ?>
+  <?php include 'includes/nav.php' ?>
 
   <!-- Hero Section -->
   <div class="jumbotron text-center">
@@ -113,7 +113,7 @@
   </footer>
 
   <!-- Bootstrap JS and dependencies -->
-  <?php include includes/dependencies.php ?>
+  <?php include 'includes/dependencies.php' ?>
 
 </body>
 </html>

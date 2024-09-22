@@ -12,7 +12,7 @@
 <body>
 
   <!-- Navbar -->
-  <?php include includes/nav.php ?>
+  <?php include 'includes/nav.php' ?>
 
   <!-- Card Section -->
   <div class="container mt-4">
@@ -152,6 +152,6 @@
   </footer>
 
   <!-- Bootstrap JS and dependencies -->
-    <?php include includes/dependencies.php ?>
+    <?php include 'includes/dependencies.php' ?>
 </body>
 </html>
