@@ -49,6 +49,28 @@
     </a>
   </div>
 
+    <!-- Crucial Information Block -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Crucial Information</h2>
+        <div class="row">
+        <div class="col-md-4 text-center">
+            <i class="fas fa-phone fa-3x mb-3"></i>
+            <h5>Phone</h5>
+            <p>+1 (555) 123-4567</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <i class="fas fa-map-marker-alt fa-3x mb-3"></i>
+            <h5>Location</h5>
+            <p>123 Business Street, City, Country</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <i class="fas fa-clock fa-3x mb-3"></i>
+            <h5>Hours</h5>
+            <p>Mon-Fri: 9am - 6pm</p>
+        </div>
+        </div>
+    </div>
+
   <!-- Card Section -->
   <div class="container mt-4">
     <div class="row">
@@ -91,8 +113,7 @@
   </footer>
 
   <!-- Bootstrap JS and dependencies -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <?php include includes/dependencies.php ?>
+
 </body>
 </html>

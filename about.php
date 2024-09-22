@@ -14,8 +14,27 @@
   <!-- Navbar -->
   <?php include includes/nav.php ?>
 
-  <!-- Meet the Team -->
-
+    <!-- Meet the Team Section -->
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Meet the Team</h2>
+        <div class="row">
+        <div class="col-md-4 text-center">
+            <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member 1">
+            <h5>Team Member 1</h5>
+            <p>Brief message or role description for team member 1.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member 2">
+            <h5>Team Member 2</h5>
+            <p>Brief message or role description for team member 2.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member 3">
+            <h5>Team Member 3</h5>
+            <p>Brief message or role description for team member 3.</p>
+        </div>
+        </div>
+    </div>
 
   <!-- Footer -->
   <footer class="text-center mt-4">
@@ -23,8 +42,7 @@
   </footer>
 
   <!-- Bootstrap JS and dependencies -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <?php include includes/dependencies.php ?>
+
 </body>
 </html>
