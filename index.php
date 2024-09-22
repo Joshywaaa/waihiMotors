@@ -55,13 +55,14 @@
         <div class="row">
         <div class="col-md-4 text-center">
             <i class="fas fa-phone fa-3x mb-3"></i>
-            <h5>Phone</h5>
-            <p>+1 (555) 123-4567</p>
+            <h5>Contact</h5>
+            <p>(507) 863-6363</p><br>
+            <p>waihimotors@outlook.com</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="fas fa-map-marker-alt fa-3x mb-3"></i>
             <h5>Location</h5>
-            <p>123 Business Street, City, Country</p>
+            <p>School Lane, Waihi</p>
         </div>
         <div class="col-md-4 text-center">
             <i class="fas fa-clock fa-3x mb-3"></i>

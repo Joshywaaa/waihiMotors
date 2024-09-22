@@ -48,6 +48,8 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="container mt-4">
     <div class="row">
       <div class="col-lg-4">
         <div class="card" style="width: 18rem;">
@@ -80,38 +82,8 @@
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
+  </div>
+  <div class="container mt-4">
     <div class="row">
       <div class="col-lg-4">
         <div class="card" style="width: 18rem;">
