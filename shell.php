@@ -71,6 +71,37 @@
     </div>
   </div>
 
+  <!-- Reviews Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Customer Reviews</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <p class="card-text">"This is the best service I’ve ever used. Highly recommend to everyone!"</p>
+          <h6 class="card-subtitle text-muted">- John Doe</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <p class="card-text">"A wonderful experience from start to finish. Will definitely be back!"</p>
+          <h6 class="card-subtitle text-muted">- Jane Smith</h6>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <p class="card-text">"Excellent quality and fantastic customer service. Five stars!"</p>
+          <h6 class="card-subtitle text-muted">- Alice Johnson</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
   <!-- Crucial Information Block -->
   <div class="container mt-5">
     <h2 class="text-center mb-4">Crucial Information</h2>

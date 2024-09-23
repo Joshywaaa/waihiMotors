@@ -14,13 +14,6 @@
   <!-- Navbar -->
   <?php include 'includes/nav.php' ?>
 
-  <!-- Hero Section -->
-  <div class="jumbotron text-center">
-    <h1 class="display-4">Welcome to Your Website</h1>
-    <p class="lead">This is a simple hero section for catching your visitor's attention.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-  </div>
-
   <!-- Image Carousel -->
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -51,13 +44,13 @@
 
     <!-- Crucial Information Block -->
     <div class="container mt-5">
-        <h2 class="text-center mb-4">Crucial Information</h2>
         <div class="row">
         <div class="col-md-4 text-center">
             <i class="fas fa-phone fa-3x mb-3"></i>
             <h5>Contact</h5>
-            <p>(507) 863-6363</p><br>
-            <p>waihimotors@outlook.com</p>
+            <p>(07) 863-6363<br>
+            waihimotors@outlook.com
+            </p>
         </div>
         <div class="col-md-4 text-center">
             <i class="fas fa-map-marker-alt fa-3x mb-3"></i>
@@ -80,8 +73,7 @@
           <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">WOF</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
+            <p class="card-text">info to come</p>
           </div>
         </div>
       </div>
@@ -90,8 +82,7 @@
           <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">Service and Maintaince</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
+            <p class="card-text">info to come</p>
           </div>
         </div>
       </div>
@@ -100,8 +91,44 @@
           <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">Repairs</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Read More</a>
+            <p class="card-text">info to come</p>
+          </div>
+        </div>
+      </div>
+        <div class="container mt-4">
+          <a href="services.php" class="btn btn-primary">All Services</a>
+        </div>
+    </div>
+  </div>
+
+   <!-- photo reviews -->
+   <div class="container mt-4">
+   <h2 class="text-center mb-4">Customer Reviews</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
+          <div class="card-body">
+          <p class="card-text">They are very great and nice people and are very fast, passed my expectations by a mile i appreciate them every much on what they did and so quickly, definitely gonna go there again</p>
+          <h6 class="card-subtitle text-muted">Brandon Carseldine</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
+          <div class="card-body">
+          <p class="card-text">Awesome people to deal with. Very professional, very helpful. Cost was cheaper than expected based on price gathering from multiple companies. A real 10/10 experience.</p>
+          <h6 class="card-subtitle text-muted">Charles Taylor</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
+          <div class="card-body">
+          <p class="card-text">Me on a personal level, they are really good people, others have choice. I have been always helped when needed, gratefully appreciate this Garage. Workers are trained by by great boss.</p>
+          <h6 class="card-subtitle text-muted">Rita Dawn Rehutai</h6>
           </div>
         </div>
       </div>

@@ -20,17 +20,29 @@
     <form>
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="inputName">First Name</label>
-          <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+          <label for="inputName">Name</label>
+          <input type="text" class="form-control" id="firstName" placeholder="First Name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputName"> / </label>
+          <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputName">Phone</label>
+          <input type="text" class="form-control" id="phone" placeholder="Your Name">
         </div>
         <div class="form-group col-md-6">
           <label for="inputEmail">Email</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Your Email">
+          <input type="email" class="form-control" id="eimail" placeholder="Your Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputName">Registration (Plate) Number</label>
+          <input type="text" class="form-control" id="inputName" placeholder="Your Name">
         </div>
       </div>
       <div class="form-group">
         <label for="inputMessage">Message</label>
-        <textarea class="form-control" id="inputMessage" rows="4" placeholder="Your Message"></textarea>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Send Message</button>
     </form>
@@ -46,3 +58,7 @@
 
 </body>
 </html>
+<?php 
+
+
+?>
