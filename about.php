@@ -21,18 +21,18 @@
         <div class="row">
         <div class="col-md-4 text-center">
             <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member 1">
-            <h5>Team Member 1</h5>
-            <p>Brief message or role description for team member 1.</p>
+            <h5>Tinkz</h5>
+            <p>Owner</p>
         </div>
         <div class="col-md-4 text-center">
             <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member 2">
-            <h5>Team Member 2</h5>
-            <p>Brief message or role description for team member 2.</p>
+            <h5>Receptionist</h5>
+            <p>about her</p>
         </div>
         <div class="col-md-4 text-center">
             <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Team Member 3">
-            <h5>Team Member 3</h5>
-            <p>Brief message or role description for team member 3.</p>
+            <h5>Mechanic</h5>
+            <p>About Him</p>
         </div>
         </div>
     </div>

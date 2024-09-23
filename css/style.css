@@ -24,3 +24,16 @@
   font-size: 1.5rem;
   color: #999;
 }
+
+/* services */
+.card {
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.9rem; /* Slightly smaller text */
+}

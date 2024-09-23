@@ -15,109 +15,57 @@
   <!-- Navbar -->
   <?php include 'includes/nav.php' ?>
 
-  <!-- Card Section -->
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+  <!-- Services Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Our Services</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-cog fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service One</h5>
+        <p class="card-text">description</p>
       </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-wrench fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service Two</h5>
+        <p class="card-text">description</p>
       </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-car fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service Three</h5>
+        <p class="card-text">description</p>
       </div>
     </div>
   </div>
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-cog fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service Four</h5>
+        <p class="card-text">description</p>
       </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-wrench fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service Five</h5>
+        <p class="card-text">description</p>
       </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-car fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service Six</h5>
+        <p class="card-text">description</p>
       </div>
     </div>
   </div>
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 1</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 2</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
-          <div class="card-body">
-            <h5 class="card-title">Card Title 3</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+</div>
+
 
   <div class="divider">
     <span>★</span>

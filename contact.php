@@ -13,41 +13,43 @@
 <body>
 
   <!-- Navbar -->
-  <?php include 'includes/nav.php' ?>
+  <?php include 'includes/nav.php';
+      include 'includes/server.php'; ?>
 
-  <!-- Contact Form Example -->
   <div class="container mt-5 mb-5">
     <h2 class="text-center mb-4">Contact Us</h2>
-    <form>
+    <form method="POST" action="">
+      <input type="hidden" name="action" value="submit">
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="inputName">Name</label>
-          <input type="text" class="form-control" id="firstName" placeholder="First Name">
+          <label for="firstName">First Name</label>
+          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
         </div>
         <div class="form-group col-md-6">
-          <label for="inputName"> / </label>
-          <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+          <label for="lastName">Last Name</label>
+          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
         </div>
         <div class="form-group col-md-6">
-          <label for="inputName">Phone</label>
-          <input type="text" class="form-control" id="phone" placeholder="Your Name">
+          <label for="phone">Phone</label>
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="Your Phone Number">
         </div>
         <div class="form-group col-md-6">
-          <label for="inputEmail">Email</label>
-          <input type="email" class="form-control" id="eimail" placeholder="Your Email">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
         </div>
         <div class="form-group col-md-6">
-          <label for="inputName">Registration (Plate) Number</label>
-          <input type="text" class="form-control" id="inputName" placeholder="Your Name">
+          <label for="rego">Registration (Plate) Number</label>
+          <input type="text" class="form-control" id="rego" name="rego" placeholder="Plate Number">
         </div>
       </div>
       <div class="form-group">
-        <label for="inputMessage">Message</label>
-        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Send Message</button>
+      <button type="submit" class="btn btn-primary" value="submit">Send Message</button>
     </form>
   </div>
+
   <div class="divider">
     <span>★</span>
   </div>
@@ -62,6 +64,51 @@
 </body>
 </html>
 <?php 
+ $dsn = 'mysql:dbname=' . $dbname . ';host=' . $servername;
 
+ try {
+     $pdo = new PDO($dsn, $username, $password);
+ } catch (\PDOException $e) {
+     throw new \PDOException($e->getMessage(), (int)$e->getCode());
+ }
+
+ // Check if form is submitted
+ $action = isset($_POST['action']) ? $_POST['action'] : "";
+
+ // Initialize form fields
+ $firstName = "";
+ $lastName = "";
+ $phone = "";
+ $email = "";
+ $rego = "";
+ $message = "";
+
+ // Process form submission
+ if ($action == "submit") {
+     try {
+         // Insert form data into the database
+         $query = "INSERT INTO queries (first_name, last_name, phone, email, rego, message) VALUES (:first_name, :last_name, :phone, :email, :rego, :message)";
+         $stmt = $pdo->prepare($query);
+         $stmt->bindParam(':first_name', $_POST['firstName']);
+         $stmt->bindParam(':last_name', $_POST['lastName']);
+         $stmt->bindParam(':phone', $_POST['phone']);
+         $stmt->bindParam(':email', $_POST['email']);
+         $stmt->bindParam(':rego', $_POST['rego']);
+         $stmt->bindParam(':message', $_POST['message']);
+         $stmt->execute();
+
+         // Display success message
+         echo '<div class="alert alert-success">';
+         echo '<span class="closebtn" onclick="this.parentElement.style.display=\'none\';">&times;</span>';
+         echo '<strong>Success!</strong> Your message has been sent successfully.';
+         echo '</div>';
+
+     } catch (PDOException $exception) { // Handle errors
+         echo '<div class="alert error">';
+         echo '<span class="closebtn" onclick="this.parentElement.style.display=\'none\';">&times;</span>';
+         echo 'Error: ' . $exception->getMessage();
+         echo '</div>';
+     }
+ }
 
 ?>

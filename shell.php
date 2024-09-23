@@ -181,6 +181,35 @@
       </div>
     </div>
   </div>
+
+  <!-- Services Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Our Services</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-cog fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service One</h5>
+        <p class="card-text">Brief description of Service One goes here.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-wrench fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service Two</h5>
+        <p class="card-text">Brief description of Service Two goes here.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-car fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Service Three</h5>
+        <p class="card-text">Brief description of Service Three goes here.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- Stylish Divider -->
   <div class="divider">
     <span>★</span>
