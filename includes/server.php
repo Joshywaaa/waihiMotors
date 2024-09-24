@@ -9,5 +9,12 @@
             if (!$conn) {
                 die("Connection failed: " . mysqli_connect_error());
             }
+            try {
+                $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+                // Set error mode to exception for easier debugging
+                $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+            } catch (PDOException $e) {
+                die("Connection failed: " . $e->getMessage());
+            }
 
         ?>

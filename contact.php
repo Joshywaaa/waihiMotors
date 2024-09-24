@@ -22,37 +22,39 @@
       <input type="hidden" name="action" value="submit">
       <div class="form-row">
         <div class="form-group col-md-6">
-          <label for="firstName">First Name</label>
-          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+          <label for="firstName">First Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
         </div>
         <div class="form-group col-md-6">
-          <label for="lastName">Last Name</label>
-          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
+          <label for="lastName">Last Name <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
         </div>
         <div class="form-group col-md-6">
-          <label for="phone">Phone</label>
-          <input type="text" class="form-control" id="phone" name="phone" placeholder="Your Phone Number">
+          <label for="phone">Phone <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="phone" name="phone" placeholder="Your Phone Number" required>
         </div>
         <div class="form-group col-md-6">
-          <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+          <label for="email">Email <span class="text-danger">*</span></label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
         </div>
         <div class="form-group col-md-6">
-          <label for="rego">Registration (Plate) Number</label>
-          <input type="text" class="form-control" id="rego" name="rego" placeholder="Plate Number">
+          <label for="rego">Registration (Plate) Number <span class="text-danger">*</span></label>
+          <input type="text" class="form-control" id="rego" name="rego" placeholder="Plate Number" required>
         </div>
       </div>
       <div class="form-group">
-        <label for="message">Message</label>
-        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+        <label for="message">Message <span class="text-danger">*</span></label>
+        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
       </div>
       <button type="submit" class="btn btn-primary" value="submit">Send Message</button>
     </form>
   </div>
-
-  <div class="divider">
-    <span>★</span>
-  </div>
+<!-- Wavy Line Divider -->
+<div class="wavy-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+        <path fill="#209D50" fill-opacity="1" d="M0,160L40,170.7C80,181,160,203,240,186.7C320,171,400,117,480,90.7C560,64,640,64,720,96C800,128,880,192,960,208C1040,224,1120,192,1200,176C1280,160,1360,160,1400,160L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+    </svg>
+</div>
   <!-- Footer -->
   <footer class="text-center mt-4">
   <p>&copy; 2024 Waihi Motors. Designed and Developed by Josh Mcginty.</p>

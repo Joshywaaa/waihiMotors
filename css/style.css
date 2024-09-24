@@ -1,3 +1,23 @@
+/* generic */
+body {
+  background-color: #E1DFD9 !important;
+}
+
+.bg-light {
+  background-color: #E1DFD9 !important;
+}
+.btn-primary{
+  background-color: #209D50 !important;
+  border-color: #209D50 !important;
+
+}
+.services-link {
+  background-color: #209D50; /* Choose your background color */
+  color: white !important; /* Change text color to contrast with background */
+  border-radius: 15px; /* Optional: rounded corners */
+  padding: 8px 12px; /* Optional: add some padding */
+}
+
 /* stylish devider*/
 .divider {
   display: flex;
