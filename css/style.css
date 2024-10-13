@@ -1,8 +1,9 @@
 /* generic */
 body {
   background-color: #E1DFD9 !important;
-}
+  font-family: 'Roboto', sans-serif !important;
 
+}
 .bg-light {
   background-color: #E1DFD9 !important;
 }
@@ -57,3 +58,24 @@ body {
 .card-text {
   font-size: 0.9rem; /* Slightly smaller text */
 }
+
+/* gallery */
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
+  gap: 15px;
+}
+
+.grid-gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Optional: Hover effect */
+.grid-gallery img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+

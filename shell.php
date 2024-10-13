@@ -13,7 +13,7 @@
 <body>
 
   <!-- Navbar -->
-  <?php include includes/nav.php ?>
+  <?php include 'includes/nav.php' ?>
 
   <!-- Hero Section -->
   <div class="jumbotron text-center">
@@ -209,6 +209,21 @@
     </div>
   </div>
 </div>
+
+<!-- Gallery Section -->
+<div class="container mt-5">
+  <h2 class="text-center mb-4">Gallery</h2>
+  <div class="grid-gallery">
+    <img src="https://via.placeholder.com/600x400" alt="Image 1">
+    <img src="https://via.placeholder.com/400x600" alt="Image 2">
+    <img src="https://via.placeholder.com/300x300" alt="Image 3">
+    <img src="https://via.placeholder.com/500x300" alt="Image 4">
+    <img src="https://via.placeholder.com/300x500" alt="Image 5">
+    <img src="https://via.placeholder.com/600x400" alt="Image 6">
+    <!-- Add more images as needed -->
+  </div>
+</div>
+
 
 <!-- Wavy Line Divider -->
 <div class="wavy-divider">

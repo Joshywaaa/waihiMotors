@@ -79,8 +79,8 @@
             echo '<div class="col-md-4 mb-4">
                     <div class="card text-center p-4 border-0 shadow-sm">
                         <i class="fas fa-user fa-3x mb-3 text-primary"></i>
-                        <h5 class="card-title">' . htmlspecialchars($review['first_name']) . ' ' . htmlspecialchars($review['last_name']) . '</h5>
-                        <p class="card-text">' . htmlspecialchars($review['message']) . '</p>
+                        <p class="card-text">' . htmlspecialchars($review['message']) . '</p>          
+                        <h6 class="card-subtitle text-muted"> '  . htmlspecialchars($review['first_name']) . ' ' . htmlspecialchars($review['last_name']) . '</h6>
                     </div>
                   </div>';
             
