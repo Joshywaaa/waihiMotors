@@ -1,81 +1,238 @@
-/* generic */
+/* Generic */
 body {
-  background-color: #E1DFD9 !important;
-  font-family: 'Roboto', sans-serif !important;
-
-}
-.bg-light {
-  background-color: #E1DFD9 !important;
-}
-.btn-primary{
-  background-color: #209D50 !important;
-  border-color: #209D50 !important;
-
-}
-.services-link {
-  background-color: #209D50; /* Choose your background color */
-  color: white !important; /* Change text color to contrast with background */
-  border-radius: 15px; /* Optional: rounded corners */
-  padding: 8px 12px; /* Optional: add some padding */
+  background-color: #f1f0ff; /* Light purple background to match the example */
+  font-family: 'Roboto', sans-serif;
 }
 
-/* stylish devider*/
-.divider {
+/* Buttons */
+.btn-primary {
+  background-color: #12143c; /* Dark navy color for buttons */
+  border-color: #12143c;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #333566; /* Slightly lighter navy on hover */
+}
+
+/* Contact Section */
+.contact-section {
   display: flex;
-  align-items: center;
-  text-align: center;
-  margin: 40px 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  margin: 0 auto;
 }
 
-.divider::before, .divider::after {
-  content: '';
+.contact-info {
   flex: 1;
-  border-bottom: 1px solid #ddd;
+  margin-right: 40px;
+  color: #333;
 }
 
-.divider:not(:empty)::before {
-  margin-right: 15px;
-}
-
-.divider:not(:empty)::after {
-  margin-left: 15px;
-}
-
-.divider span {
-  font-size: 1.5rem;
-  color: #999;
-}
-
-/* services */
-.card {
-  background-color: #f8f9fa; /* Light background for contrast */
-}
-
-.card-title {
+.contact-info h2 {
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
-.card-text {
-  font-size: 0.9rem; /* Slightly smaller text */
+.contact-info p {
+  margin-bottom: 0.5rem;
 }
 
-/* gallery */
-.grid-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 images per row */
-  gap: 15px;
+.contact-info .social-link {
+  background-color: #12143c;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 
-.grid-gallery img {
+.contact-info .social-link:hover {
+  background-color: #333566;
+}
+
+/* Form Styles */
+.contact-form {
+  flex: 1;
+}
+
+.contact-form .form-control {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #12143c;
+  box-shadow: 0 0 5px rgba(18, 20, 60, 0.3);
+}
+
+.contact-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact-form button {
+  width: 100%;
+  background-color: #12143c;
+  border-color: #12143c;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+/* Voucher Card Styling */
+.voucher-card {
+  background-color: #f1f0ff; /* Light purple background */
+  border-radius: 8px;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.voucher-card h5 {
+  font-size: 1rem;
+  color: #12143c;
+  text-decoration: underline;
+}
+
+.voucher-card .price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #12143c;
+  margin: 15px 0;
+}
+
+.voucher-card p {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* Top Ribbon */
+.voucher-card .top-ribbon {
+  background-color: #dab4ff; /* Light purple ribbon color */
+  height: 10px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Popular Badge */
+.popular-badge {
+  background-color: #ff6af4; /* Pink badge color */
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+/* Purchase Button */
+.voucher-card .btn-purchase {
+  background-color: #12143c; /* Dark navy */
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+.voucher-card .btn-purchase:hover {
+  background-color: #333566;
+}
+
+/* Grid Styling */
+.voucher-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.voucher-container .voucher-card {
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+
+/* Meet the Team Section */
+.meet-the-team {
+  background-color: #f3f1ff; /* Light purple background */
+  padding: 50px 0;
+  color: #12143c;
+}
+
+.meet-the-team h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #12143c;
+  margin-bottom: 40px;
+}
+
+.team-member {
+  text-align: center;
+  position: relative;
+}
+
+.team-member img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px solid #dab4ff; /* Light purple border */
+}
+
+.team-member h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #12143c;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Wavy Divider Styling */
+.wavy-divider svg {
+  display: block;
   width: 100%;
   height: auto;
-  object-fit: cover;
-  border-radius: 8px;
+  margin-top: -20px;
 }
 
-/* Optional: Hover effect */
-.grid-gallery img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s ease;
+/* Section container and team member layout */
+.container.mt-5 {
+  max-width: 1100px;
+  margin: auto;
 }
 
+.row .col-md-4 {
+  padding: 0 15px;
+}

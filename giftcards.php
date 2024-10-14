@@ -14,6 +14,33 @@
 
   <!-- Navbar -->
   <?php include 'includes/nav.php' ?>
+<!-- Voucher Section -->
+<div class="voucher-container">
+  <div class="voucher-card">
+    <div class="top-ribbon"></div>
+    <h5>Essential 30min voucher</h5>
+    <div class="price">$65</div>
+    <p>30 Minute Essential Back Neck and Shoulder Massage</p>
+    <button class="btn btn-purchase">Purchase</button>
+  </div>
+
+  <div class="voucher-card">
+    <div class="top-ribbon"></div>
+    <div class="popular-badge">Popular</div>
+    <h5>Essential 60min voucher</h5>
+    <div class="price">$95</div>
+    <p>One Hour Essential Full Body Massage</p>
+    <button class="btn btn-purchase">Purchase</button>
+  </div>
+
+  <div class="voucher-card">
+    <div class="top-ribbon"></div>
+    <h5>Essential 90min voucher</h5>
+    <div class="price">$165</div>
+    <p>Essential Bliss Massage - Therapeutic and Intuitive Massage for Ultimate Stress Management and Relaxation</p>
+    <button class="btn btn-purchase">Purchase</button>
+  </div>
+</div>
 
 
 
