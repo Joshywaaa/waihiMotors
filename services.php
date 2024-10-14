@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Waihi Motors</title>
+  <title>Essential Massage</title>
   
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -17,27 +17,27 @@
 
   <!-- Services Section -->
 <div class="container mt-5">
-  <h2 class="text-center mb-4">Our Services</h2>
+  <h2 class="text-center mb-4">Essential Massage Treatments</h2>
   <div class="row">
     <div class="col-md-4 mb-4">
       <div class="card text-center p-4 border-0 shadow-sm">
         <i class="fas fa-cog fa-3x mb-3 text-primary"></i>
-        <h5 class="card-title">Service One</h5>
-        <p class="card-text">description</p>
+        <h5 class="card-title">Essential Back, Neck and Shoulders - 30 mins</h5>
+        <p class="card-text">Therapeutic and Intuitive Massage for Stress Management and Relaxation<br>30 mins · $65</p>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="card text-center p-4 border-0 shadow-sm">
         <i class="fas fa-wrench fa-3x mb-3 text-primary"></i>
-        <h5 class="card-title">Service Two</h5>
-        <p class="card-text">description</p>
+        <h5 class="card-title">Essential Full Body Massage - 60 mins</h5>
+        <p class="card-text">Therapeutic and Intuitive Massage for Stress Management and Relaxation<br>1 hour · $95</p>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="card text-center p-4 border-0 shadow-sm">
         <i class="fas fa-car fa-3x mb-3 text-primary"></i>
-        <h5 class="card-title">Service Three</h5>
-        <p class="card-text">description</p>
+        <h5 class="card-title">Essential Full Body Massage with Hot Stones - 60 mins</h5>
+        <p class="card-text">Therapeutic and Intuitive Treatment with heated basalt stones<br>1 hour · $115</p>
       </div>
     </div>
   </div>
@@ -45,27 +45,47 @@
     <div class="col-md-4 mb-4">
       <div class="card text-center p-4 border-0 shadow-sm">
         <i class="fas fa-cog fa-3x mb-3 text-primary"></i>
-        <h5 class="card-title">Service Four</h5>
-        <p class="card-text">description</p>
+        <h5 class="card-title">Essential Bliss Massage - 90 mins</h5>
+        <p class="card-text">Therapeutic and Intuitive Massage for ultimate Relaxation<br>1 hour, 30 mins · $165</p>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="card text-center p-4 border-0 shadow-sm">
         <i class="fas fa-wrench fa-3x mb-3 text-primary"></i>
-        <h5 class="card-title">Service Five</h5>
-        <p class="card-text">description</p>
+        <h5 class="card-title">Essential Side Lie Pregnancy Massage - 45 mins</h5>
+        <p class="card-text">Safely tucked on your side enjoy the Essential Mummas Massage<br>45 mins · $95</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+ <!-- Services Section -->
+ <div class="container mt-5">
+  <h2 class="text-center mb-4">Essential Sports Therapeutic Massage</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-cog fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Sports Massage Pre/Post Event - 20 mins</h5>
+        <p class="card-text">Select This service to receive an Essential Warm Up or Warm Down massage within 24hrs before or after an Event, the massage is focused on an area where the strain or muscles are utilised for an event - Ie, legs - Marathon etc<br>20 mins · $40</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="card text-center p-4 border-0 shadow-sm">
+        <i class="fas fa-wrench fa-3x mb-3 text-primary"></i>
+        <h5 class="card-title">Sports Massage - 30 mins</h5>
+        <p class="card-text">If you are a weekend warrior, enjoy gym, marathons, jogging, walking or yoga, a therapeutic sports massage is a great way to relieve the pain and tension in areas of the body that have been overworked.<br>30 mins · $70</p>
       </div>
     </div>
     <div class="col-md-4 mb-4">
       <div class="card text-center p-4 border-0 shadow-sm">
         <i class="fas fa-car fa-3x mb-3 text-primary"></i>
-        <h5 class="card-title">Service Six</h5>
-        <p class="card-text">description</p>
+        <h5 class="card-title">Sports Massage - 60 mins</h5>
+        <p class="card-text">If you are a weekend warrior, enjoy gym, marathons, jogging, walking or yoga, a therapeutic sports massage is a great way to relieve the pain and tension in areas of the body that have been overworked.<br>1 hour · $100</p>
       </div>
     </div>
   </div>
 </div>
-
 
 <!-- Wavy Line Divider -->
 <div class="wavy-divider">
@@ -75,7 +95,7 @@
 </div>
 <!-- Footer -->
     <footer class="text-center mt-4">
-    <p>&copy; 2024 Waihi Motors. Designed and Developed by Josh Mcginty.</p>
+    <p>&copy; 2024 Essential Massage. Designed and Developed by Josh Mcginty.</p>
   </footer>
 
   <!-- Bootstrap JS and dependencies -->
