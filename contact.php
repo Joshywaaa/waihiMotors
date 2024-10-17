@@ -10,39 +10,6 @@
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom CSS -->
-  <style>
-    body {
-      background-color: #f4f6ff;
-      color: #333;
-    }
-    .container {
-      max-width: 900px;
-    }
-    .contact-info {
-      font-size: 1.1rem;
-    }
-    .form-group label {
-      font-weight: bold;
-    }
-    .btn-primary {
-      background-color: #333;
-      border-color: #333;
-    }
-    .btn-primary:hover {
-      background-color: #555;
-      border-color: #555;
-    }
-    .btn-facebook {
-      background-color: #333;
-      border-color: #333;
-      color: white;
-    }
-    .btn-facebook:hover {
-      background-color: #555;
-      border-color: #555;
-    }
-  </style>
 </head>
 <body>
 
@@ -86,7 +53,12 @@
       </div>
     </div>
   </div>
-
+<!-- Wavy Line Divider -->
+<div class="wavy-divider">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+        <path fill="#dab4ff" fill-opacity="1" d="M0,160L40,170.7C80,181,160,203,240,186.7C320,171,400,117,480,90.7C560,64,640,64,720,96C800,128,880,192,960,208C1040,224,1120,192,1200,176C1280,160,1360,160,1400,160L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+    </svg>
+</div>
   <!-- Footer -->
   <footer class="text-center mt-4">
     <p>&copy; 2024 Essential Massage. Designed and Developed by Josh Mcginty.</p>
