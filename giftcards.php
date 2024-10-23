@@ -14,14 +14,16 @@
 
   <!-- Navbar -->
   <?php include 'includes/nav.php' ?>
+  <h1 class="voucher-title">Choose your Voucher</h1> <!-- Large Centered Title -->
+
 <!-- Voucher Section -->
 <div class="voucher-container">
-  <div class="voucher-card">
+<div class="voucher-card">
     <div class="top-ribbon"></div>
     <h5>Essential 30min voucher</h5>
     <div class="price">$65</div>
     <p>30 Minute Essential Back Neck and Shoulder Massage</p>
-    <button class="btn btn-purchase">Purchase</button>
+    <a class="btn btn-purchase" href="https://bookings.gettimely.com/essentialmassagewithjo/purchase?uri=https%3A%2F%2Fbook.gettimely.com%2FGiftVoucher%2FDetails%2F259311%3FisMobile%3DTrue%26params%3D%25253fclient-login%25253dtrue" target="_blank">Purchase</a>
   </div>
 
   <div class="voucher-card">
@@ -30,7 +32,7 @@
     <h5>Essential 60min voucher</h5>
     <div class="price">$95</div>
     <p>One Hour Essential Full Body Massage</p>
-    <button class="btn btn-purchase">Purchase</button>
+    <a class="btn btn-purchase" href="https://bookings.gettimely.com/essentialmassagewithjo/purchase?uri=https%3A%2F%2Fbook.gettimely.com%2FGiftVoucher%2FDetails%2F259311%3FisMobile%3DTrue%26params%3D%25253fclient-login%25253dtrue" target="_blank">Purchase</a>
   </div>
 
   <div class="voucher-card">
@@ -38,7 +40,7 @@
     <h5>Essential 90min voucher</h5>
     <div class="price">$165</div>
     <p>Essential Bliss Massage - Therapeutic and Intuitive Massage for Ultimate Stress Management and Relaxation</p>
-    <button class="btn btn-purchase">Purchase</button>
+    <a class="btn btn-purchase" href="https://bookings.gettimely.com/essentialmassagewithjo/purchase?uri=https%3A%2F%2Fbook.gettimely.com%2FGiftVoucher%2FDetails%2F259311%3FisMobile%3DTrue%26params%3D%25253fclient-login%25253dtrue" target="_blank">Purchase</a>
   </div>
 </div>
 

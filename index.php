@@ -13,14 +13,16 @@
 <body>
 
   <!-- Navbar -->
-  <?php include 'includes/nav.php' ?>
-  
-  <div class="jumbotron text-center hero-section position-relative">
-    <img src="images/hotTowel.jpg" alt="Hero Image" class="img-fluid w-100 h-100 position-absolute top-0 start-0" style="object-fit: cover; z-index: -1;">
-    <h1 class="display-4">Welcome to Your Website</h1>
-    <p class="lead">This is a simple hero section for catching your visitor's attention.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <?php include 'includes/nav.php' 
+  ?>
+
+<div class="jumbotron text-center hero-section position-relative">
+    <img src="images/hotTowel.jpg" alt="Hero Image" class="img-fluid w-100 h-100 position-absolute" style="object-fit: cover; top: 0; left: 0; z-index: -1;">
+    <h1 class="display-4">Essential Massage</h1>
+    <p class="lead">Massage for Everybody.</p>
+    <a class="btn btn-primary btn-lg" href="services.php" role="button">Learn more</a>
 </div>
+
 
 
     <!-- Crucial Information Block -->
@@ -55,32 +57,32 @@
   <div class="container mt-4">
     <div class="row">
       <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="images/hotTowel.jpg" class="card-img-top" alt="Card image">
+        <div class="card text-center p-4 border-0 shadow-sm flex-fill">
+          <img src="images/stone.jpeg" class="card-img-fixed mb-3" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">Essential Massage Services</h5>
-            <p class="card-text">info to come</p>
-            <button class="btn btn-purchase">Learn More</button>
+            <p class="card-text">Essential Massages to help you feel like a new person</p>
+            <a class="btn btn-purchase" href="services.php">Learn More</a>
             </div>
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
+        <div class="card text-center p-4 border-0 shadow-sm flex-fill">
+          <img src="images/statue.jpeg" class="card-img-fixed mb-3" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">Essential Sports Therapeutic Massage</h5>
-            <p class="card-text">info to come</p>
-            <button class="btn btn-purchase">Learn More</button>
+            <p class="card-text">Recovery Massages for post sporting events to help you heal</p>
+            <a class="btn btn-purchase" href="services.php">Learn More</a>
           </div>
         </div>
       </div>
       <div class="col-lg-4">
-        <div class="card" style="width: 18rem;">
-          <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image">
+        <div class="card text-center p-4 border-0 shadow-sm flex-fill">
+          <img src="images/bedClose.jpeg" class="card-img-fixed mb-3" alt="Card image">
           <div class="card-body">
             <h5 class="card-title">Gift Vouchers</h5>
-            <p class="card-text">info to come</p>
-            <button class="btn btn-purchase">Learn More</button>
+            <p class="card-text">Need a perfect gift? Vouchers of specific amounts or custom ones</p>
+            <a class="btn btn-purchase" href="giftcards.php">Learn More</a>
           </div>
         </div>
       </div>

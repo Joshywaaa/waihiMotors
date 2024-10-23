@@ -18,59 +18,62 @@
     include 'includes/server.php'; // Assuming this sets up the $conn variable
   ?>
 
-  <!-- Services Section -->
-  <div class="container mt-5">
-      <h2 class="text-center mb-4">Essential Massage Treatments</h2>
-      <div class="row">
-          <?php
-          $sql = "SELECT `id`, `title`, `time_price`, `description`, `image` FROM `essentialServices`";
-          $result = $conn->query($sql);
-          if ($result && $result->num_rows > 0) {
-              while ($row = $result->fetch_assoc()) {
-                  ?>
-                  <div class="col-md-4 mb-4">
-                      <div class="card text-center p-4 border-0 shadow-sm">
+ <!-- Services Section -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Essential Massage Treatments</h2>
+    <div class="row d-flex align-items-stretch">
+        <?php
+        $sql = "SELECT `id`, `title`, `time_price`, `description`, `image` FROM `essentialServices`";
+        $result = $conn->query($sql);
+        if ($result && $result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                ?>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card text-center p-4 border-0 shadow-sm flex-fill">
                         <img src="images/<?php echo htmlspecialchars($row['image']); ?>" alt="<?php echo htmlspecialchars($row['title']); ?>" class="card-img-fixed mb-3">
                         <h5 class="card-title"><?php echo htmlspecialchars($row['title']); ?></h5>
-                          <p class="card-text"><?php echo nl2br(htmlspecialchars($row['description'])); ?><br><?php echo htmlspecialchars($row['time_price']); ?></p>
+                        <p class="time-price"> <?php echo htmlspecialchars($row['time_price']); ?></p>
+                        <p class="card-text"><?php echo nl2br(htmlspecialchars($row['description'])); ?></p>
                       </div>
-                  </div>
-                  <?php
-              }
-          } else {
-              echo "<p class='text-center'>No services available at the moment.</p>";
-          }
-          ?>
-      </div>
-  </div>
+                </div>
+                <?php
+            }
+        } else {
+            echo "<p class='text-center'>No services available at the moment.</p>";
+        }
+        ?>
+    </div>
+</div>
 
-  <!-- Sports Treatments Section -->
-  <div class="container mt-5">
-      <h2 class="text-center mb-4">Essential Sport Therapeutic Treatments</h2>
-      <div class="row">
-          <?php
-          $sql = "SELECT `id`, `title`, `time_price`, `description`, `image` FROM `sportServices`";
-          $result = $conn->query($sql);
-          if ($result && $result->num_rows > 0) {
-              while ($row = $result->fetch_assoc()) {
-                  ?>
-                  <div class="col-md-4 mb-4">
-                      <div class="card text-center p-4 border-0 shadow-sm">
-                          <img src="images/<?php echo htmlspecialchars($row['image']); ?>" alt="<?php echo htmlspecialchars($row['title']); ?>" class="card-img-fixed mb-3">
-                          <h5 class="card-title"><?php echo htmlspecialchars($row['title']); ?></h5>
-                          <p class="card-text"><?php echo nl2br(htmlspecialchars($row['description'])); ?><br><?php echo htmlspecialchars($row['time_price']); ?></p>
-                      </div>
-                  </div>
-                  <?php
-              }
-          } else {
-              echo "<p class='text-center'>No services available at the moment.</p>";
-          }
-          // Close connection after all queries
-          $conn->close();
-          ?>
-      </div>
-  </div>
+<!-- Sports Treatments Section -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Essential Sport Therapeutic Treatments</h2>
+    <div class="row d-flex align-items-stretch">
+        <?php
+        $sql = "SELECT `id`, `title`, `time_price`, `description`, `image` FROM `sportServices`";
+        $result = $conn->query($sql);
+        if ($result && $result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                ?>
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="card text-center p-4 border-0 shadow-sm flex-fill">
+                        <img src="images/<?php echo htmlspecialchars($row['image']); ?>" alt="<?php echo htmlspecialchars($row['title']); ?>" class="card-img-fixed mb-3">
+                        <h5 class="card-title"><?php echo htmlspecialchars($row['title']); ?></h5>
+                        <p class="time-price"> <?php echo htmlspecialchars($row['time_price']); ?></p>
+                        <p class="card-text"><?php echo nl2br(htmlspecialchars($row['description'])); ?></p>
+                    </div>
+                </div>
+                <?php
+            }
+        } else {
+            echo "<p class='text-center'>No services available at the moment.</p>";
+        }
+        // Close connection after all queries
+        $conn->close();
+        ?>
+    </div>
+</div>
+
 
   <!-- Wavy Line Divider -->
   <div class="wavy-divider">
